@@ -19,7 +19,7 @@ Step 2
 1. In console window start by showing which databases exist in our storage
    1. show dbs = show databases ctrl+enter (or cmd+enter on Mac) to run - everytime a new method is added
 2. Create database by entering command
-   1. use <name-of-database> 
+   1. use <name-of-database>
    2. Introspect database when prompted
 3. Now we can start adding what we want our database to contain
 4. Start by creating collection, there are three different ways to do so
