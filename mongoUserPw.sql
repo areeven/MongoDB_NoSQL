@@ -129,11 +129,10 @@ db.my_collection.find({}, {Password: 1, _id: 0})
 // Limit
 db.my_collection.find({}, {Username: 1, _id: 0}).count()
 db.my_collection.find({}, {Username: 1, _id: 0}).limit(2)
-// Ascending
+// Sort Ascending 1
 db.my_collection.find({}, {Username: 1, _id: 0}).sort({Username: 1})
-// Descending
+// Sort Descending -1
 db.my_collection.find({}, {Username: 1, _id: 0}).sort({Username: -1})
 db.my_collection.find({}, {Password: 1, _id: 0}).sort({Password: 1})
 db.my_collection.find({}, {Password: 1, _id: 0}).sort({Password: -1})
 db.my_collection.find({}, {Username: 1, _id: 0}).limit(2).sort({Username: -1})
-
